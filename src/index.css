@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: black --default;
+}
+@theme {
+  --color-main: #0582ff;
+  --breakpoint-xs: 21.25rem;
+  --text-shadow-main: -1px -1px 5px #0582ff; 
+}
+
+
+body {
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
